@@ -1,0 +1,7 @@
+########Establecer contraseña y permisos a root
+mysql
+USE mysql;
+SET @pass = 'password'; #cambiar aquí
+UPDATE user SET password=PASSWORD(@pass) WHERE user='root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password'; #cambiar aquí
+FLUSH PRIVILEGES;

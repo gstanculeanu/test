@@ -1,0 +1,45 @@
+r1
+- default official quests
+- default official regens
+- default official maps
+- fixed /goto warps in settings.lua
+- added gf, mijago, syreldar, marty lua libs in quest/libraries
+- added disabled/ and samples/ marty quests
+- added cz/de/dk/en/es/fr/gr/hu/it/nl/pl/pt/ro/ru/tr translations
+- updated the svf scripts
+
+r2
+- added ae translation
+- added customizable quest/systems/give_basic_weapon.quest
+- fixed spammy states for check_trans_ticket.quest, spider_dungeon_2floor.quest
+- fixed the updated svf scripts for windows
+
+r3
+- fixed some translate.lua syntaxes (like \" to ')
+- fixed clear.py for *.core
+- added admin_panel fullrestart option
+
+r4
+- fixed auth id in the generated serverinfo.py (inside gen.py)
+
+r5
+- fixed story/levelup.quest translations and scroll image position
+- added skill_proto.sql patches for v22 client
+
+r6
+- fixed accents for romanian translation
+- added some missing strings in locale_string (only english)
+- added input prompt for systems/items/change_name.quest
+- added define ENABLE_SAY inside systems/give_basic_weapon.quest
+- translated skill_proto.sql in english (instead of italian)
+- translated systems/give_basic_weapon.quest in all languages
+- translated systems/sash.quest in all languages
+- translated systems/items/change_name.quest in all languages
+
+r7
+- translated biology/collect_quest_lv96.quest in all languages
+- fixed gen.py serverinfo generation for 2+ channels
+
+r8
+- added missing cor draconis chests 50256,50257,50258,50259 in special_item_group.txt
+- added sql/base/db_prefix_remove.sh to remove the "srv_" prefix from the databases automatically + regranting
